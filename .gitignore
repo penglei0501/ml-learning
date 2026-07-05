@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local editor / Codex context
+.vscode/
+.idea/
+.agents/
+.codex/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large generated model artifacts
+stage04-nlp-llm/saved_sentiment_model/
+*.safetensors
+
+# Runtime logs
+*.log
